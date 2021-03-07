@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Web Design Weather Home Page</title>
+        <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel = "stylesheet" href="style_index.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">WeatherPy</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link"  href="Comparisions.html">Comparison</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Data.html">Data</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Plots
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="Fig1.html">Max Temperature</a></li>
+                      <li><a class="dropdown-item" href="Fig2.html">Humidity</a></li>
+                      <li><a class="dropdown-item" href="Fig3.html">Cloudiness</a></li>
+                      <li><a class = "dropdown-item" href = "Fig4.html">Wind Speed</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class = "container-fluid p-3 main_background2">
+              <div class = "row row_background ml-5 mr-5 justify-content-center">
+                  <div class = "col-12 px-5 py-4 border-bottom">
+                      <p>
+                          Plots
+                      </p>
+                  </div>
+                  <div class="col-12 col-sm-6 py-4">
+                      <div class="row justify-content-center">
+                          <div class="col-12 text-center">
+                              <p class="h2 color_comparison" style="font-size: 3vw;">
+                                  Max Temp vs. Latitude
+                              </p>
+                          </div>
+                          <div class="col-12 text-center">
+                              <a href="Fig1.html" title="">
+                                  <img class="img-responsive img-fluid mx-auto" src = "Resources/assets/images/Fig1.png">
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-sm-6 py-4">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <p class="h2 color_comparison" style="font-size: 3vw;">
+                                Humidity vs. Latitude
+                            </p>
+                        </div>
+                        <div class="col-12 text-center">
+                            <a href="Fig2.html" title="">
+                                <img class="img-responsive img-fluid mx-auto" src = "Resources/assets/images/Fig2.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 py-4">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <p class="h2 color_comparison" style="font-size: 3vw;">
+                                Cloudiness vs. Latitude
+                            </p>
+                        </div>
+                        <div class="col-12 text-center">
+                            <a href="Fig3.html" title="">
+                                <img class="img-responsive img-fluid mx-auto" src = "Resources/assets/images/Fig3.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 py-4">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <p class="h2 color_comparison" style="font-size: 3vw;">
+                                Wind Speed vs. Latitude
+                            </p>
+                        </div>
+                        <div class="col-12 text-center">
+                            <a href="Fig4.html" title="">
+                                <img class="img-responsive img-fluid mx-auto" src = "Resources/assets/images/Fig4.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+              </div>
+          </div>
+</body>
+
+</html>
